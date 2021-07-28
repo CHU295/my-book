@@ -8,7 +8,7 @@ segmentfault：[https://segmentfault.com/u/chu295/articles](https://segmentfault
 
 掘金：[https://juejin.im/user/587c79d91b69e60058416fef/posts](https://juejin.im/user/587c79d91b69e60058416fef/posts)
 
-[主文档-2021未分类](2021.md)
+[主文档-2021未分类](2021)
 
 # 17年总览 Summary
 原项目地址 https://github.com/CHU295/chu_book
