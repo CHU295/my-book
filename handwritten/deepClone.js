@@ -4,8 +4,8 @@ function deepClone(val) {
   }
   let newObj = Array.isArray(val) ? [] : {};
   for (const key in val) {
-    let item  = val[key]
-    newObj[key] = item instanceof Object;
+    let item = val[key];
+    newObj[key] = item instanceof Object ? deepClone(item) : item;
   }
 }
 
@@ -17,5 +17,3 @@ var a = {
 };
 
 var Q = deepClone(a);
-
-Q === a;

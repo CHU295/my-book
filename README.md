@@ -4,107 +4,23 @@
 
 github： [https://github.com/CHU295/chu_book.git](https://github.com/CHU295/chu_book.git)
 
-segmentfault：[https://segmentfault.com/u/chu295/articles](https://segmentfault.com/u/chu295/articles)
-
 掘金：[https://juejin.im/user/587c79d91b69e60058416fef/posts](https://juejin.im/user/587c79d91b69e60058416fef/posts)
 
-# 2021
+# 目录
+## 手写题
+- [手写题](handwritten/)
+## 算法题
+都是空的，基本都是刷的LeetCode
+- [算法题](algorithm/)
+## 收集的笔试题
+逛论坛刷群看见的
+- [收集的笔试题](collectExam/)
+## 2021
 - [综合1](2021/readme.md)
-- 未整理
-  - [主文档-2021未分类](2021.md)
-  - [主文档-2021-2](2021-2.md)
 
-# 17年总览 Summary
-原项目地址 https://github.com/CHU295/chu_book
-- [续章](xu-zhang.md)
-- [知识点](README.md)
-  - [样式](yang-shi.md)
-  - [移动端](yi-dong-duan.md)
-    - [Passive Event Listeners](yi-dong-duan/passive-event-listeners.md)
-  - [数据类型](shu-ju-lei-xing.md)
-    - [数组](shu-ju-lei-xing/shu-zu.md)
-      - [检查数组类型](shu-ju-lei-xing/shu-zu/jian-cha-shu-zu-lei-xing.md)
-    - [数组去重](shu-ju-lei-xing/shu-zu-qu-zhong.md)
-    - [原型链](shu-ju-lei-xing/yuan-xing-lian.md)
-    - 对象
-      - [数据属性 & 访问器属性](shu-ju-lei-xing/shu-ju-shu-xing-and-fang-wen-qi-shu-xing.md)
-      - [创建对象](shu-ju-lei-xing/chuang-jian-dui-xiang.md)
-      - 继承
-  - [JSON](json.md)
-  - [柯里化](ke-li-hua.md)
-  - [规范 cmd、amd、es6、commonjs](gui-fan-cmd-amd-es6-commonjs.md)
-  - [JavaScript](javascript.md)
-    - [数据类型](javascript/shu-ju-lei-xing.md)
-    - [自执行函数](javascript/zi-zhi-xing-han-shu.md)
-    - [事件模型](javascript/shi-jian-mo-xing.md)
-    - [函数去抖、节流](javascript/han-shu-qu-dou-3001-jie-liu.md)
-    - [Js 链式调用](javascript/jslian-shi-diao-yong.md)
-    - [new](javascript/new.md)
-    - [各种循环、遍历、Map、foreach，reduce、filter...](javascript/ge-zhong-xun-huan-3001-bian-li-3001-map-foreach-reduce-filter.md)
-    - [闭包](javascript/bi-bao.md)
-    - [变量提升](javascript/bian-liang-ti-sheng.md)
-    - [Call 、Apply、 bind](javascript/call-apply-bind.md)
-  - [ES6+](es6+.md)
-    - [剩余参数](es6+/sheng-yu-can-shu.md)
-    - [默认参数](es6+/mo-ren-can-shu.md)
-    - [promise](es6+/promise.md)
-    - [Generator、async](es6+/generatorasync.md)
-    - [模板字符串](es6+/mo-ban-zi-fu-chuan.md)
-  - 工具、框架
-    - [vue、react、ag](shuang-xiang-bang-ding-yuan-li.md)
-    - [react](react.md)
-      - [setstate](react/setstate.md)
-    - [webpack](webpack.md)
-    - [gulp](gulp.md)
-    - [babel](babel.md)
-  - 网络基础
-    - [跨域](kua-yu.md)
-    - [get/post](getpost.md)
-    - [xmlHttpRequest abort](xmlhttprequest-abort.md)
-    - [200,304，缓存](200304ff0c-huan-cun.md)
-    - [xss/csrf](xsscsrf.md)
-    - [域名发散与域名收敛](yu-ming-fa-san-yu-yu-ming-shou-lian.md)
-  - [缓存](huan-cun.md)
-  - 优化
-    - [网络请求类](wang-luo-lei-xing.md)
-  - [内存泄漏](nei-cun-xie-lou.md)
-  - [多态](duo-tai.md)
-  - [event 对象中 target 和 currentTarget 属性的区别](eventdui-xiang-zhong-target-he-currenttarget-shu-xing-de-qu-bie.md)
-  - [图片类型](tu-pian-lei-xing.md)
-  - [scrollIntoView 标签元素滚到可视区域](scrollintoview-biao-qian-yuan-su-gun-dao-ke-shi-qu-yu.md)
-  - [eventloop](eventloop.md)
-- [文章](wen-zhang.md)
-  - [webpack4.0 初体验、各版本及 parcel 性能对比](wen-zhang/webpack40chu-ti-yan-3001-ge-ban-ben-ji-parcel-xing-neng-dui-bi.md)
-  - [canvas 图片合成](wen-zhang/canvastu-pian-he-cheng.md)
-  - [Twitter，facebook，Pinterest 等国外平台授权登录](twitterfacebookpinterestdeng-guo-wai-ping-tai-shou-quan-deng-lu.md)
-  - [vscode 支持 es2016 es2017 语法](vscodezhi-chi-es2016-es2017-yu-fa.md)
-  - [windows 配置 Nginx 支持 https](windowspei-zhi-nginx-zhi-chi-https.md)
-  - [zeroclipboard 网页滚动失效解决方法](zeroclipboardwang-ye-gun-dong-shi-xiao-jie-jue-fang-fa.md)
-  - [授权弹窗自动关闭父页面刷新思路](shou-quan-dan-chuang-zi-dong-guan-bi-fu-ye-mian-shua-xin-si-lu.md)
-  - [网页通过 php 链接数据库查询数据](wang-ye-tong-guo-php-lian-jie-shu-ju-ku-cha-xun-shu-ju.md)
-  - [vue.js vue-router history 模式路由，域名二级目录子目录 nginx 配置](wen-zhang/vuejs-vue-router-historymo-shi-lu-you-ff0c-yu-ming-er-ji-mu-lu-zi-mu-lu-nginx-pei-zhi.md)
-  - [vue.js 拖拉排序插件 vuedraggable，无法兼容微信 QQ 腾讯系浏览器解决办法](wen-zhang/vuejstuo-la-pai-xu-cha-jian-vuedraggable-ff0c-wu-fa-jian-rong-wei-xin-qq-teng-xun-xi-liu-lan-qi-jie-jue-ban-fa.md)
-  - [前端网页移动端 H5 签名 canvas 原生实现，移动端签名实践，适用于 vue.js react 等任何框架](wen-zhang/qian-duan-wang-ye-yi-dong-duan-h5-qian-ming-canvas-yuan-sheng-shi-xian-ff0c-yi-dong-duan-qian-ming-shi-jian-ff0c-shi-yong-yu-vue-js-react-deng-ren-he-kuang-jia.md)
-  - [移动端 touch 事件，点击、滑动、长按事件 及适配 vue](wen-zhang/yi-dong-duan-touch-shi-jian-ff0c-dian-ji-3001-hua-dong-3001-chang-an-shi-jian-ji-shi-pei-vue.md)
-  - [input 输入框 value 控制相关](wen-zhang/inputshu-ru-kuang-value-kong-zhi-xiang-guan.md)
-  - [基于 qiankun 的微前端实践，提供更为简单、完整的项目](wen-zhang/ji-yu-qiankun-de-wei-qian-duan-shi-jian-ff0c-ti-gong-geng-wei-jian-dan-3001-wan-zheng-de-xiang-mu.md)
-- [创作](chuang-zuo.md)
-  - [vue.js element-ui 组件改 iview 第一期 tree 树形控件](chuang-zuo/vue-element-ui-tree-shu-xing-kong-jian-gai-iview.md)
-  - [vue.js element-ui 组件改 iview 第二期 table 表单](chuang-zuo/vuejs-element-uizu-jian-gai-iview-di-er-qi-table-biao-dan.md)
-- 杂谈&&日常踩坑记录
-  - [git 文件名大小写变化检测](gitwen-jian-ming-da-xiao-xie-xiu-gai-mo-ren-bu-jian-ce.md)
-  - [input placeholder 中引用字体图标 如 iconfont](input-placeholderzhong-yin-yong-zi-ti-tu-biao-ru-iconfont.md)
-  - [前端缓存经验汇总](wu-ti.md)
-  - [规范](gui-fan.md)
-  - [iframe ios 兼容 bug](iframe-ios-jian-rong-bug.md)
-  - [iview 定制主题无法解析 less](iviewding-zhi-zhu-ti-wu-fa-jie-xi-less.md)
-  - [微信分享](wei-xin-fen-xiang-ios-jian-rong-xing.md)
-    - [微信分享动态配置](wei-xin-fen-xiang-ios-jian-rong-xing/wei-xin-fen-xiang-dong-tai-pei-zhi.md)
-    - [ios 兼容](wei-xin-fen-xiang-ios-jian-rong-xing/iosjian-rong.md)
-  - [es6 import 语法相关](es6-importyu-fa-xiang-guan.md)
-  - [小程序](xiao-cheng-xu.md)
-    - [真机调试编译报错问题 unexpected character \` \`](zhen-ji-diao-shi-bian-yi-bao-cuo-wen-ti-unexpected-character.md)
-  - [IOS input 阴影问题](ios-input-yin-ying-wen-ti.md)
-  - [location.href 是异步的](locationhrefshi-yi-bu-de.md)
-- 不相干的东西
-  - [12306 买票选择上下铺](12306mai-piao-xuan-ze-shang-xia-pu.md)
+- 未整理
+  - [主文档-2021未分类](2021/2021.md)
+  - [主文档-2021-2](2021/2021-2.md)
+
+## 2017
+- [2017](2017/)
