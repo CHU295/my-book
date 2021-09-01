@@ -8,6 +8,7 @@ github： [https://github.com/CHU295/chu_book.git](https://github.com/CHU295/chu
 
 # 目录
 ## 手写题
+可以直接clone到本地，直接在vscode里面调试~
 - [手写题](handwritten/)
 ## 算法题
 都是空的，基本都是刷的LeetCode
