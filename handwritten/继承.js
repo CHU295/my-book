@@ -85,6 +85,7 @@ function Parent(name) {
 function child(name) {
   Parent.call(this, name);
 }
+// 只有一个参数的时候 与 Object.create相同
 function create1(obj) {
   function A() {}
   A.prototype = obj;
@@ -92,7 +93,11 @@ function create1(obj) {
 }
 function create(child, Parent) {
   let new_ = create1(Parent.prototype);
-  new_.prototype = child;
-  child.prototype.constructor = new_;
+  new_.constructor = child;
+  child.prototype = new_;
 }
+// 所以可以改写成
+child.prototype = Object.create(Parent.prototype);
+child.prototype.constructor = child;
+
 create(child, Parent);
