@@ -198,6 +198,9 @@ json方式会丢失function 日期正则会转成字符串 undefined  symbol会�
 跟===一样，但是解决了-0 === +0 true NaN === NaN false的问题
 
 # react
+## flushSync关闭队列模式
+也就是说可以用这个函数，让usestate同步执行
+
 ## diff原理 
 三大原则
 + dom节点跨层级操作较少，只有创建删除操作
@@ -298,6 +301,11 @@ function mountRef(initialValue) {
 ## 合成事件
 为了磨平差异性，使得开发者不需要关注兼容性，统一管理事件，提高性能
 17后，react重置了合成事件机制，原先的事件统一绑定在document上面，现在是每个应用（即调用ReactDOM.render的节点）的根节点
+
+## 展望
+react18 会把所有事件都合并到队列里面，现在的原生及定时器都是不会走队列机制的
+
+另外官方会提供ssr
 
 # webpack 
 ## webpack构建流程
