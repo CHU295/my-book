@@ -1,4 +1,4 @@
-// 手写-怎么在制定数据源里面生成一个长度为 n 的不重复随机数组 能有几种方法 时间复杂度多少（字节）
+// 手写-怎么在指定数据源里面生成一个长度为 n 的不重复随机数组 能有几种方法 时间复杂度多少（字节）
 
 function getTenNum(testArray, n) {
   let result = [];
@@ -37,7 +37,6 @@ function getTenNum(testArray, n) {
   const cloneArr = [...testArray];
   let result = [];
   for (let i = 0; i < n; i++) {
-    debugger;
     const ran = Math.floor(Math.random() * (cloneArr.length - i));
     result.push(cloneArr[ran]);
     cloneArr[ran] = cloneArr[cloneArr.length - i - 1];
